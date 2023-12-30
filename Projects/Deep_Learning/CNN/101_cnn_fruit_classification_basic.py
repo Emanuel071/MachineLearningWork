@@ -18,8 +18,8 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator
 #########################################################################
 
 # data flow parameters
-training_data_dir = "C:/Users/eacalder/Documents/GitHub/DataScienceInfinity/Saved_files/Deep_Learning/CNN/data/training"
-validation_data_dir = "C:/Users/eacalder/Documents/GitHub/DataScienceInfinity/Saved_files/Deep_Learning/CNN/data/validation"
+training_data_dir = "./Deep_Learning/CNN/data/training"
+validation_data_dir = "./Deep_Learning/CNN/data/validation"
 
 batch_size = 32
 img_width = 128
